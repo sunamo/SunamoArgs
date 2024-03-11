@@ -27,18 +27,3 @@ public class ExternalLoginResult //: ExternalLoginResult
         set;
     }
 }
-
-//public interface ExternalLoginResult
-//{
-//     int IdUser
-//    {
-//        get;
-//        set;
-//    }
-
-//     string Sc
-//    {
-//        get;
-//        set;
-//    }
-//}

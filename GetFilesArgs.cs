@@ -23,11 +23,3 @@ public class GetFilesArgs : GetFilesBaseArgs
     public bool wildcard = false;
 
 }
-
-//using System.Collections.Generic;
-
-//public class GetFilesArgs
-//{
-//    public bool _trimA1AndLeadingBs = false;
-//    public List<string> excludeFromLocationsCOntains = null;
-//}
