@@ -5,7 +5,7 @@ SunamoDevCode
 SunamoFileSystem
 #elif SunamoGitBashBuilder
 SunamoGitBashBuilder
-#else SunamoArgs
+#else
 SunamoArgs
 #endif
 ;

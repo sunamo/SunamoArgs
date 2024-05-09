@@ -3,7 +3,7 @@ namespace
 SunamoCl
 #elif SunamoPlatformUwpInterop
 SunamoPlatformUwpInterop
-#else SunamoArgs
+#else
 SunamoArgs
 #endif
 ;

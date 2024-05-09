@@ -3,7 +3,7 @@ namespace
 SunamoPS
 #elif SunamoShared
 SunamoShared
-#else SunamoArgs
+#else
 SunamoArgs
 #endif
 ;

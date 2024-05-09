@@ -1,7 +1,7 @@
 namespace
 #if SunamoDevCode
 SunamoDevCode
-#else SunamoArgs
+#else
 SunamoArgs
 #endif
 ;

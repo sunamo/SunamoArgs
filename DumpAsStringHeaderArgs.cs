@@ -3,7 +3,7 @@ namespace
 SunamoCollectionWithoutDuplicates
 #elif SunamoReflection
 SunamoReflection
-#else SunamoArgs
+#else
 SunamoArgs
 #endif
 ;
