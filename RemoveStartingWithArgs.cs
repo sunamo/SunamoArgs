@@ -1,4 +1,4 @@
-namespace SunamoCollectionsShared.Args;
+namespace SunamoArgs;
 
 public class RemoveStartingWithArgs
 {
