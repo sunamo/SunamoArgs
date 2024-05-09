@@ -1,4 +1,12 @@
-namespace SunamoArgs;
+namespace
+#if SunamoCl
+SunamoCl
+#elif SunamoPlatformUwpInterop
+SunamoPlatformUwpInterop
+#else SunamoArgs
+SunamoArgs
+#endif
+;
 
 /// <summary>
 /// Musejí být všechny init protože už dále nedělám žádné checky na null

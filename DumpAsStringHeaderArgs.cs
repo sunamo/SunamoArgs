@@ -1,4 +1,12 @@
-namespace SunamoArgs;
+namespace
+#if SunamoCollectionWithoutDuplicates
+SunamoCollectionWithoutDuplicates
+#elif SunamoReflection
+SunamoReflection
+#else SunamoArgs
+SunamoArgs
+#endif
+;
 
 /// <summary>
 ///     Mus� b�t v SunamoArgs proto�e je sd�lena ve SunamoReflection i SunamoCollectionWithoutDuplicates

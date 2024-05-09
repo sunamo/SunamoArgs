@@ -1,4 +1,10 @@
-namespace SunamoArgs;
+namespace
+#if SunamoDevCode
+SunamoDevCode
+#else SunamoArgs
+SunamoArgs
+#endif
+;
 
 public class ChangeContentArgs
 {

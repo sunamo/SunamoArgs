@@ -1,4 +1,12 @@
-namespace SunamoArgs;
+namespace
+#if SunamoFileSystem
+SunamoFileSystem
+#elif SunamoShared
+SunamoShared
+#else SunamoArgs
+SunamoArgs
+#endif
+;
 
 public class GetFilesEveryFolderArgs : GetFilesBaseArgs
 {

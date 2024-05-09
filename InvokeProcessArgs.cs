@@ -1,4 +1,10 @@
-namespace SunamoArgs;
+namespace
+#if SunamoShared
+SunamoShared
+#else SunamoArgs
+SunamoArgs
+#endif
+;
 
 public class InvokeProcessArgs
 {

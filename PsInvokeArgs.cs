@@ -1,4 +1,12 @@
-namespace SunamoArgs;
+namespace
+#if SunamoPS
+SunamoPS
+#elif SunamoShared
+SunamoShared
+#else SunamoArgs
+SunamoArgs
+#endif
+;
 
 public class PsInvokeArgs
 {
