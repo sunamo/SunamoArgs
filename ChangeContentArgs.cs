@@ -1,6 +1,8 @@
 namespace
 #if SunamoDevCode
 SunamoDevCode
+#elif SunamoCollectionsChangeContent
+    SunamoCollectionsChangeContent
 #else
 SunamoArgs
 #endif
