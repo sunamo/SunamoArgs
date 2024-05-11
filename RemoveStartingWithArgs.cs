@@ -1,4 +1,12 @@
-namespace SunamoArgs;
+
+namespace
+#if SunamoCollectionsValuesTableGrid
+SunamoCollectionsValuesTableGrid
+#else
+    SunamoArgs
+#endif
+;
+
 
 public class RemoveStartingWithArgs
 {
