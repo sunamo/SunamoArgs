@@ -1,5 +1,4 @@
 
-namespace SunamoArgs;
 
 namespace
 #if SunamoCollectionsValuesTableGrid
