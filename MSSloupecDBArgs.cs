@@ -1,4 +1,10 @@
-namespace SunamoArgs;
+namespace
+#if SunamoInterfaces
+SunamoInterfaces
+#else
+SunamoArgs
+#endif
+;
 
 public class MSSloupecDBArgs
 {

@@ -1,4 +1,10 @@
-namespace SunamoArgs;
+namespace
+#if SunamoReflection
+SunamoReflection
+#else
+SunamoArgs
+#endif
+;
 
 #region For easy copy
 public class GetMemberArgs

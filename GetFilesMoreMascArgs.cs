@@ -1,6 +1,8 @@
 namespace
 #if SunamoShared
 SunamoShared
+#elif SunamoFileSystem
+SunamoFileSystem
 #else
 SunamoArgs
 #endif

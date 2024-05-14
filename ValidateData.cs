@@ -1,4 +1,10 @@
-namespace SunamoArgs;
+namespace
+#if SunamoInterfaces
+SunamoInterfaces
+#else
+SunamoArgs
+#endif
+;
 
 /// <summary>
 ///     Must be in shared because desktop reference PathEditor and therefore this class cant be in desktop

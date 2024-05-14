@@ -3,8 +3,10 @@
 namespace
 #if SunamoCollectionsValuesTableGrid
 SunamoCollectionsValuesTableGrid
+#elif SunamoCollectionsShared
+SunamoCollectionsShared
 #else
-    SunamoArgs
+SunamoArgs
 #endif
 ;
 

@@ -1,4 +1,10 @@
-namespace SunamoArgs;
+namespace
+#if SunamoInterfaces
+SunamoInterfaces
+#else
+SunamoArgs
+#endif
+;
 
 /// <summary>
 /// Jakékoliv změny v této složce musíš projevit i v stejně pojmenované třídě v sunamo projektu
