@@ -5,6 +5,8 @@ namespace
 SunamoCollectionsValuesTableGrid
 #elif SunamoCollectionsShared
 SunamoCollectionsShared
+#elif SunamoCollections
+SunamoCollections
 #else
 SunamoArgs
 #endif
