@@ -7,6 +7,8 @@ SunamoCollectionsValuesTableGrid
 SunamoCollectionsShared
 #elif SunamoCollections
 SunamoCollections
+#elif SunamoDevCode
+SunamoDevCode
 #else
 SunamoArgs
 #endif

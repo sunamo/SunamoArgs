@@ -1,4 +1,10 @@
-namespace SunamoArgs;
+namespace
+#if SunamoDevCode
+SunamoDevCode
+#else
+SunamoArgs
+#endif
+;
 
 /*
 dříve dědila z GetFoldersEveryFolderArgs a ji dědil GetFilesArgs
