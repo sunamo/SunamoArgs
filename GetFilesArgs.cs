@@ -5,18 +5,19 @@ SunamoDevCode
 SunamoFileSystem
 #elif SunamoGitBashBuilder
 SunamoGitBashBuilder
+#elif SunamoGetFiles
+SunamoGetFiles
+#elif SunamoGetFolders
+SunamoGetFolders
 #else
 SunamoArgs
 #endif
 ;
-
 // todo nemělo by to dědit z GetFoldersEveryFolderArgs? ve vs2 to tak mám
 public class GetFilesArgs : GetFilesBaseArgs
 {
     // todo s touhle třídou jsou jen problémy. udělat pořádek co tu má být a co tu nemám.
-
     public bool _trimExt = false;
-
     public bool _trimA1AndLeadingBs = false;
     public List<string> excludeFromLocationsCOntains = new List<string>();
     public bool dontIncludeNewest = false;
@@ -31,5 +32,4 @@ public class GetFilesArgs : GetFilesBaseArgs
     /// </summary>
     public bool useMascFromExtension = false;
     public bool wildcard = false;
-
 }

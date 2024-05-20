@@ -5,7 +5,6 @@ SunamoInterfaces
 SunamoArgs
 #endif
 ;
-
 /// <summary>
 /// Jakékoliv změny v této složce musíš projevit i v stejně pojmenované třídě v sunamo projektu
 /// </summary>
@@ -17,13 +16,11 @@ public class ExternalLoginResult //: ExternalLoginResult
         get;
         set;
     }
-
     public string Sc
     {
         get;
         set;
     }
-
     /// <summary>
     /// int.MaxValue for never asking
     /// </summary>

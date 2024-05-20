@@ -3,11 +3,12 @@ namespace
 SunamoDevCode
 #elif SunamoStringSubstring
 SunamoStringSubstring
+#elif SunamoUri
+SunamoUri
 #else
 SunamoArgs
 #endif
 ;
-
 /// <summary>
 /// 23-1-23 jsem ho přesunul zpět do SunamoStringSubstring, aby neměl už žádné deps
 /// </summary>
@@ -18,6 +19,5 @@ public class SubstringArgs
     /// </summary>
     public bool returnInputIfInputIsShorterThanA3 = false;
     public bool returnInputIfIndexFromIsLessThanIndexTo = false;
-
     public static SubstringArgs Instance = new SubstringArgs();
 }

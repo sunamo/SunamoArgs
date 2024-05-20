@@ -5,7 +5,6 @@ SunamoReflection
 SunamoArgs
 #endif
 ;
-
 #region For easy copy
 public class GetMemberArgs
 {

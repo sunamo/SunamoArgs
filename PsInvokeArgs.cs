@@ -5,11 +5,12 @@ SunamoPS
 SunamoShared
 #elif SunamoInterfaces
 SunamoInterfaces
+#elif SunamoWinStd
+SunamoWinStd
 #else
 SunamoArgs
 #endif
 ;
-
 public class PsInvokeArgs
 {
     public static readonly PsInvokeArgs Def = new PsInvokeArgs();
@@ -19,7 +20,6 @@ public class PsInvokeArgs
     /// </summary>
     public bool immediatelyToStatus = false;
     public List<string> addBeforeEveryCommand = null;
-
     // nemůžu to dát do #if DEBUG protože se mi to nepromítne do nuget package
     // nevím proč furt dělám takové hloupé chyby které mě stojí čas
     //#if DEBUG
@@ -31,13 +31,11 @@ public class PsInvokeArgs
     /// </summary>
     //
     public string pathToSaveLoadPsOutput = null;
-
     //[Conditional("DEBUG")]
     //public string GetPathToSaveLoadPsOutput()
     //{
     //    return pathToSaveLoadPsOutput;
     //}
-
     //[Conditional("DEBUG")]
     //public void SetPathToSaveLoadPsOutput(string value)
     //{

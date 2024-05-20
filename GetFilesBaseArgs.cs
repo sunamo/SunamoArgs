@@ -1,15 +1,21 @@
 namespace
 #if SunamoDevCode
 SunamoDevCode
+#elif SunamoGetFiles
+SunamoGetFiles
+#elif SunamoGetFolders
+SunamoGetFolders
+#elif SunamoShared
+SunamoShared
+#elif SunamoFileSystem
+SunamoFileSystem
 #else
 SunamoArgs
 #endif
 ;
-
 /*
 dříve dědila z GetFoldersEveryFolderArgs a ji dědil GetFilesArgs
 Protože potřebuji univerzání data pro získávání souborů skrze různé metody (GetFiles, GetFilesMoreMasc atd.), vypadá teď takto
-
 dávalo smysl i to co jsem měl, jelikož GetFilesEveryFolder
 volalo GetFoldersEveryFolder takže jsem si z toho vzal jen subset z bázové třídy
 */

@@ -3,11 +3,12 @@ namespace
 SunamoShared
 #elif SunamoFileSystem
 SunamoFileSystem
+#elif SunamoGetFiles
+SunamoGetFiles
 #else
 SunamoArgs
 #endif
 ;
-
 public class GetFilesMoreMascArgs : GetFilesBaseArgs
 {
     public bool LoadFromFileWhenDebug = false;
