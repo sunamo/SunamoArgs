@@ -11,6 +11,8 @@ SunamoGitBashBuilder
 SunamoWikipedia
 #elif SunamoGetFolders
 SunamoGetFolders
+#elif SunamoWinStd
+SunamoWinStd
 #else
 SunamoArgs
 #endif

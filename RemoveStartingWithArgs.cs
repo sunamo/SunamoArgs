@@ -1,5 +1,3 @@
-
-
 namespace
 #if SunamoCollectionsValuesTableGrid
 SunamoCollectionsValuesTableGrid
@@ -13,8 +11,6 @@ SunamoDevCode
 SunamoArgs
 #endif
 ;
-
-
 public class RemoveStartingWithArgs
 {
     /// <summary>
