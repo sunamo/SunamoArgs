@@ -13,6 +13,8 @@ SunamoWikipedia
 SunamoGetFolders
 #elif SunamoWinStd
 SunamoWinStd
+#elif SunamoHtml
+SunamoHtml
 #else
 SunamoArgs
 #endif
