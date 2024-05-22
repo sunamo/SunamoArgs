@@ -4,7 +4,7 @@ namespace SunamoArgs;
 /// <summary>
 /// Zkratka pro SignedUnsigned
 /// </summary>
-public enum Signed
+internal enum Signed
 {
     Signed,
     Unsigned,
