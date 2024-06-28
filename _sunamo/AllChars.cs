@@ -238,7 +238,7 @@ SunamoDotnetCmdBuilder
 #elif SunamoLogging
 SunamoLogging
 #else
-SunamoValues
+SunamoArgs
 #endif
 ;
 public class AllChars

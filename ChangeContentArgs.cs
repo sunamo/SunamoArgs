@@ -1,24 +1,5 @@
-namespace
-#if SunamoDevCode
-SunamoDevCode
-#elif SunamoCollectionsChangeContent
-SunamoCollectionsChangeContent
-#elif SunamoGetFiles
-SunamoGetFiles
-#elif SunamoGitBashBuilder
-SunamoGitBashBuilder
-#elif SunamoWikipedia
-SunamoWikipedia
-#elif SunamoGetFolders
-SunamoGetFolders
-#elif SunamoWinStd
-SunamoWinStd
-#elif SunamoHtml
-SunamoHtml
-#else
-SunamoArgs
-#endif
-;
+
+namespace SunamoArgs;
 public class ChangeContentArgs
 {
     public bool removeNull = false;

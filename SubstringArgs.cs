@@ -1,14 +1,3 @@
-namespace
-#if SunamoDevCode
-SunamoDevCode
-#elif SunamoStringSubstring
-SunamoStringSubstring
-#elif SunamoUri
-SunamoUri
-#else
-SunamoArgs
-#endif
-;
 /// <summary>
 /// 23-1-23 jsem ho přesunul zpět do SunamoStringSubstring, aby neměl už žádné deps
 /// </summary>

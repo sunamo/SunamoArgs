@@ -1,16 +1,3 @@
-namespace
-#if SunamoCollectionsValuesTableGrid
-SunamoCollectionsValuesTableGrid
-#elif SunamoCollectionsShared
-SunamoCollectionsShared
-#elif SunamoCollections
-SunamoCollections
-#elif SunamoDevCode
-SunamoDevCode
-#else
-SunamoArgs
-#endif
-;
 public class RemoveStartingWithArgs
 {
     /// <summary>

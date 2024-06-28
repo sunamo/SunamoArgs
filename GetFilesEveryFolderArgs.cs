@@ -1,16 +1,3 @@
-namespace
-#if SunamoFileSystem
-SunamoFileSystem
-#elif SunamoShared
-SunamoShared
-#elif SunamoGetFiles
-SunamoGetFiles
-#elif SunamoGetFolders
-SunamoGetFolders
-#else
-SunamoArgs
-#endif
-;
 public class GetFilesEveryFolderArgs : GetFilesBaseArgs
 {
     public bool usePbTime = false;

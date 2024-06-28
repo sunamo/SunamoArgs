@@ -1,18 +1,3 @@
-namespace
-#if SunamoDevCode
-SunamoDevCode
-#elif SunamoFileSystem
-SunamoFileSystem
-#elif SunamoGitBashBuilder
-SunamoGitBashBuilder
-#elif SunamoGetFiles
-SunamoGetFiles
-#elif SunamoGetFolders
-SunamoGetFolders
-#else
-SunamoArgs
-#endif
-;
 // todo nemělo by to dědit z GetFoldersEveryFolderArgs? ve vs2 to tak mám
 public class GetFilesArgs : GetFilesBaseArgs
 {

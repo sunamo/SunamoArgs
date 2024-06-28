@@ -1,16 +1,3 @@
-namespace
-#if SunamoPS
-SunamoPS
-#elif SunamoShared
-SunamoShared
-#elif SunamoInterfaces
-SunamoInterfaces
-#elif SunamoWinStd
-SunamoWinStd
-#else
-SunamoArgs
-#endif
-;
 public class PsInvokeArgs
 {
     public static readonly PsInvokeArgs Def = new PsInvokeArgs();

@@ -1,10 +1,3 @@
-namespace
-#if SunamoInterfaces
-SunamoInterfaces
-#else
-SunamoArgs
-#endif
-;
 public class MSSloupecDBArgs
 {
     public string nazev;
