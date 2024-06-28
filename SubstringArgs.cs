@@ -1,3 +1,5 @@
+
+namespace SunamoArgs;
 /// <summary>
 /// 23-1-23 jsem ho přesunul zpět do SunamoStringSubstring, aby neměl už žádné deps
 /// </summary>

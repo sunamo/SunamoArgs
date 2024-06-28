@@ -1,3 +1,5 @@
+
+namespace SunamoArgs;
 public class PsInvokeArgs
 {
     public static readonly PsInvokeArgs Def = new PsInvokeArgs();

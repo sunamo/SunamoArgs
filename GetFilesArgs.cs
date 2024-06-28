@@ -1,3 +1,5 @@
+
+namespace SunamoArgs;
 // todo nemělo by to dědit z GetFoldersEveryFolderArgs? ve vs2 to tak mám
 public class GetFilesArgs : GetFilesBaseArgs
 {

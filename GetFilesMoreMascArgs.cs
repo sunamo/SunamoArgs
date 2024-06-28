@@ -1,3 +1,5 @@
+
+namespace SunamoArgs;
 public class GetFilesMoreMascArgs : GetFilesBaseArgs
 {
     public bool LoadFromFileWhenDebug = false;

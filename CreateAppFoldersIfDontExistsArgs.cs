@@ -1,3 +1,5 @@
+
+namespace SunamoArgs;
 /// <summary>
 /// Musejí být všechny init protože už dále nedělám žádné checky na null
 /// </summary>

@@ -1,3 +1,5 @@
+
+namespace SunamoArgs;
 public class GetFilesEveryFolderArgs : GetFilesBaseArgs
 {
     public bool usePbTime = false;

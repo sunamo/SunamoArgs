@@ -1,3 +1,5 @@
+
+namespace SunamoArgs;
 /// <summary>
 ///     Mus� b�t v SunamoArgs proto�e je sd�lena ve SunamoReflection i SunamoCollectionWithoutDuplicates
 /// </summary>

@@ -1,3 +1,5 @@
+
+namespace SunamoArgs;
 public class RemoveStartingWithArgs
 {
     /// <summary>
