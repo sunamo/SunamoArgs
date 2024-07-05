@@ -1,4 +1,3 @@
-
 namespace SunamoArgs;
 public class PsInvokeArgs
 {
