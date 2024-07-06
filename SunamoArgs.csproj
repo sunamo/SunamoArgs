@@ -3,11 +3,15 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Version>24.7.3.5</Version>
+    <Version>24.7.6.1</Version>
     <Description>Shared library with data classes passed into methods as arguments</Description>
-    <PackageReleaseNotes>5</PackageReleaseNotes>
+    <PackageReleaseNotes>Added NuGet metadata</PackageReleaseNotes>
     <Authors>www.sunamo.cz</Authors>
     <Copyright>www.sunamo.cz</Copyright>
+    <PackageProjectUrl>https://sunamo.cz/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/sunamo/SunamoArgs.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
   <ItemGroup>
   </ItemGroup>
