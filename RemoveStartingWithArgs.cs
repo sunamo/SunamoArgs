@@ -1,8 +1,9 @@
 namespace SunamoArgs;
+
 public class RemoveStartingWithArgs
 {
     /// <summary>
-    /// Original
+    ///     Original
     /// </summary>
     public bool TrimBeforeFinding { get; } = false;
 
