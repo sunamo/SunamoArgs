@@ -16,11 +16,6 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Remove="_sunamo\SunamoEnums\**" />
-    <EmbeddedResource Remove="_sunamo\SunamoEnums\**" />
-    <None Remove="_sunamo\SunamoEnums\**" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="readme.md" Pack="True" PackagePath="." />
   </ItemGroup>
   <ItemGroup>
