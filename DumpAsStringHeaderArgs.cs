@@ -5,14 +5,11 @@ namespace SunamoArgs;
 /// </summary>
 public class DumpAsStringHeaderArgs
 {
-    public static DumpAsStringHeaderArgs Default = new();
-
-    public string A;
-
+    public static DumpAsStringHeaderArgs Default { get; set; } = new();
 
     /// <summary>
     ///     Only names of properties to get
     ///     If starting with ! => surely delete
     /// </summary>
-    public List<string> onlyNames = new();
+    public List<string> OnlyNames { get; set; } = new();
 }

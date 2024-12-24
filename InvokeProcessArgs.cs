@@ -2,5 +2,5 @@ namespace SunamoArgs;
 
 public class InvokeProcessArgs
 {
-    public string workingDir = null;
+    public string? WorkingDir { get; set; } = null;
 }
