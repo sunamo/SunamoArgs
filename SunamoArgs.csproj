@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
@@ -16,10 +16,10 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <NoWarn>CA1822;CS1573;CS1572;CS1570;CA1866;CA1865;CA1867;CS1998;CA1847;IDE0066</NoWarn>
     <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+
   </PropertyGroup>
   <ItemGroup>
     <None Include="readme.md" Pack="True" PackagePath="." />
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.3" Pack="True" />
-    <Compile Include="**\*.cs" Exclude="**\bin\**;**\obj\**;Source\**\*.Designer.cs;Source\**\*.g.cs;Source\**\*.AssemblyInfo.cs" Pack="true" PackagePath="src\" />
   </ItemGroup>
 </Project>
