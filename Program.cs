@@ -1,4 +1,4 @@
-﻿namespace SunamoRegex.Tests;
+namespace SunamoRegex.Tests;
 
 internal class Program
 {
