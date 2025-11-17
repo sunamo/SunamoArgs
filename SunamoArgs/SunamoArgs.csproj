@@ -19,6 +19,12 @@
 
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="DumpAsStringHeaderArgs.cs" />
+    <Compile Include="InvokeProcessArgs.cs" />
+    <Compile Include="RemoveStartingWithArgs.cs" />
+    <Compile Include="GlobalUsings.cs" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="readme.md" Pack="True" PackagePath="." />
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.3" Pack="True" />
   </ItemGroup>
