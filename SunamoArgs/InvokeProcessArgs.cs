@@ -1,4 +1,3 @@
-// variables names: ok
 namespace SunamoArgs;
 
 public class InvokeProcessArgs
