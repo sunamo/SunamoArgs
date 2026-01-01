@@ -5,6 +5,9 @@ namespace SunamoArgs;
 /// </summary>
 public class DumpAsStringHeaderArgs
 {
+    /// <summary>
+    /// Gets or sets the default instance of DumpAsStringHeaderArgs.
+    /// </summary>
     public static DumpAsStringHeaderArgs Default { get; set; } = new();
 
     /// <summary>

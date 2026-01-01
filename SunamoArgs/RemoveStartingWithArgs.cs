@@ -1,11 +1,17 @@
 namespace SunamoArgs;
 
+/// <summary>
+/// Arguments for remove starting with operations.
+/// </summary>
 public class RemoveStartingWithArgs
 {
     /// <summary>
-    ///     Original
+    /// Gets or sets a value indicating whether to trim whitespace before finding the starting pattern.
     /// </summary>
-    public bool TrimBeforeFinding { get; } = false;
+    public bool TrimBeforeFinding { get; set; } = false;
 
-    public bool CaseSensitive { get; } = true;
+    /// <summary>
+    /// Gets or sets a value indicating whether the search is case sensitive.
+    /// </summary>
+    public bool CaseSensitive { get; set; } = true;
 }
