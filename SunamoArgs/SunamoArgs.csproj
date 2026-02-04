@@ -5,7 +5,7 @@
     <Nullable>enable</Nullable>
     <Version>26.2.4.1</Version>
     <Description>Shared library with data classes passed into methods as arguments</Description>
-    <PackageReleaseNotes>feat: Enable SourceLink and debug symbols </PackageReleaseNotes>
+    <PackageReleaseNotes>feat: Enable SourceLink and added debug symbols</PackageReleaseNotes>
     <Authors>www.sunamo.cz</Authors>
     <Copyright>www.sunamo.cz</Copyright>
     <PackageProjectUrl>https://sunamo.cz/</PackageProjectUrl>
@@ -31,7 +31,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="readme.md" Pack="True" PackagePath="." />
-    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.3" Pack="True" />
-    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.*" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.2" Pack="True" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="10.0.102" PrivateAssets="all" />
   </ItemGroup>
 </Project>
