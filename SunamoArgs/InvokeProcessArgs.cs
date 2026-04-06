@@ -8,5 +8,5 @@ public class InvokeProcessArgs
     /// <summary>
     /// Gets or sets the working directory for the process invocation.
     /// </summary>
-    public string? WorkingDir { get; set; } = null;
+    public string? WorkingDirectory { get; set; } = null;
 }

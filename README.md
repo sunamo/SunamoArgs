@@ -1,6 +1,6 @@
 # SunamoArgs
 
-Shared library with data classes passed into methods as arguments
+Shared library with data classes passed into methods as arguments.
 
 ## Overview
 
@@ -10,9 +10,9 @@ SunamoArgs is part of the Sunamo package ecosystem, providing modular, platform-
 
 ### Key Classes
 
-- **DumpAsStringHeaderArgs**
-- **InvokeProcessArgs**
-- **RemoveStartingWithArgs**
+- **DumpAsStringHeaderArgs** - Arguments for dumping objects as string with header formatting.
+- **InvokeProcessArgs** - Arguments for process invocation operations.
+- **RemoveStartingWithArgs** - Arguments for remove-starting-with operations.
 
 ## Installation
 
@@ -22,15 +22,14 @@ dotnet add package SunamoArgs
 
 ## Dependencies
 
-- **Microsoft.Extensions.Logging.Abstractions** (v9.0.3)
+- **Microsoft.Extensions.Logging.Abstractions**
 
 ## Package Information
 
 - **Package Name**: SunamoArgs
-- **Version**: 25.7.24.2
-- **Target Framework**: net9.0
+- **Target Frameworks**: net10.0, net9.0, net8.0
 - **Category**: Platform-Independent NuGet Package
-- **Source Files**: 3
+- **License**: MIT
 
 ## Related Packages
 
