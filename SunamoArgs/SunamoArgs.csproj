@@ -4,9 +4,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <LangVersion>latest</LangVersion>
     <Nullable>enable</Nullable>
-    <Version>26.5.18.7</Version>
+    <Version>26.6.25.8</Version>
     <Description>Shared library with data classes passed into methods as arguments</Description>
-    <PackageReleaseNotes>y</PackageReleaseNotes>
+    <PackageReleaseNotes>feat: fix #if</PackageReleaseNotes>
     <Authors>www.sunamo.cz</Authors>
     <Copyright>www.sunamo.cz</Copyright>
     <PackageProjectUrl>https://sunamo.github.io/PlatformIndependentNuGetPackages/SunamoArgs/</PackageProjectUrl>
@@ -43,4 +43,5 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="PolySharp" Version="1.15.0" PrivateAssets="all" />
-  </ItemGroup></Project>
+  </ItemGroup>
+</Project>

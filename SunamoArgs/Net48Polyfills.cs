@@ -1,8 +1,3 @@
-// Compatibility helpers so the project compiles for net48/netstandard2.0 in addition to net8+.
-// FileAsync is active for all target frameworks (forwards to File.*Async on modern ones).
-// The extension polyfills below only compile for net48/netstandard2.0.
-// Type polyfills (Index/Range, init, required, nullable attributes, ...) come from PolySharp.
-
 internal static class FileAsync
 {
 #if NET5_0_OR_GREATER
