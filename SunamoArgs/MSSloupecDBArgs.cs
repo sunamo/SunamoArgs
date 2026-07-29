@@ -9,5 +9,5 @@ public class MSSloupecDBArgs
     public bool primaryKey;
     public string? referencesColumn;
     public string? referencesTable;
-    public SunamoEnums.Enums.Signed signed;
+    public Signed signed;
 }

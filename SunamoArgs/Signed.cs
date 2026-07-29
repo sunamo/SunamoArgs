@@ -1,4 +1,4 @@
-namespace SunamoEnums.Enums;
+namespace SunamoArgs;
 
 // Zkratka pro SignedUnsigned — vyžaduje MSSloupecDBArgs (public kopie interní verze ze SunamoInterfaces)
 public enum Signed
