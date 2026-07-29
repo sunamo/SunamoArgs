@@ -32,6 +32,8 @@
   <ItemGroup>
     <Compile Include="Net48Polyfills.cs" />
     <Compile Include="DumpAsStringHeaderArgs.cs" />
+    <Compile Include="MSSloupecDBArgs.cs" />
+    <Compile Include="Signed.cs" />
     <Compile Include="InvokeProcessArgs.cs" />
     <Compile Include="RemoveStartingWithArgs.cs" />
     <Compile Include="GlobalUsings.cs" />
