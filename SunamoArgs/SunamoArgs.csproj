@@ -4,9 +4,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <LangVersion>latest</LangVersion>
     <Nullable>enable</Nullable>
-    <Version>26.9.28.4</Version>
+    <Version>26.9.30.5</Version>
     <Description>Shared library with data classes passed into methods as arguments</Description>
-    <PackageReleaseNotes>--help</PackageReleaseNotes>
+    <PackageReleaseNotes>publish: SunamoArgs verze s MSSloupecDBArgs (chybela v predchozim publishi)</PackageReleaseNotes>
     <Authors>www.sunamo.cz</Authors>
     <Copyright>www.sunamo.cz</Copyright>
     <PackageProjectUrl>https://sunamo.github.io/PlatformIndependentNuGetPackages/SunamoArgs/</PackageProjectUrl>
