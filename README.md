@@ -1,5 +1,10 @@
 # SunamoArgs
 
+## Short description
+
+Sdílená knihovna datových tříd, které se předávají metodám jako argumenty (například DumpAsStringHeaderArgs, InvokeProcessArgs, RemoveStartingWithArgs). Slouží ostatním balíčkům sady Sunamo.
+
+
 Shared library with data classes passed into methods as arguments.
 
 ## Overview
