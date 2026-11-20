@@ -1,6 +1,6 @@
 namespace SunamoArgs;
 
-// Zkratka pro SignedUnsigned — vyžaduje MSSloupecDBArgs (public kopie interní verze ze SunamoInterfaces)
+// Shortcut for SignedUnsigned - requires MSSloupecDBArgs (public copy of the internal version from SunamoInterfaces)
 public enum Signed
 {
     Signed,
