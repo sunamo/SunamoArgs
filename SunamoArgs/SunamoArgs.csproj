@@ -6,7 +6,6 @@
     <Nullable>enable</Nullable>
     <Version>26.9.30.5</Version>
     <Description>Shared library with data classes passed into methods as arguments</Description>
-    <PackageReleaseNotes>publish: SunamoArgs verze s MSSloupecDBArgs (chybela v predchozim publishi)</PackageReleaseNotes>
     <Authors>www.sunamo.cz</Authors>
     <Copyright>www.sunamo.cz</Copyright>
     <PackageProjectUrl>https://sunamo.github.io/PlatformIndependentNuGetPackages/SunamoArgs/</PackageProjectUrl>
@@ -21,7 +20,6 @@
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <EmbedAllSources>true</EmbedAllSources>
-    <Optimize>false</Optimize>
   </PropertyGroup>
   <PropertyGroup>
     <DebugType>portable</DebugType>
