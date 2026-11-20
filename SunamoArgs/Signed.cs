@@ -1,6 +1,6 @@
 namespace SunamoArgs;
 
-// Shortcut for SignedUnsigned - requires MSSloupecDBArgs (public copy of the internal version from SunamoInterfaces)
+// Shortcut for SignedUnsigned - requires MSColumnDBArgs (public copy of the internal version from SunamoInterfaces)
 public enum Signed
 {
     Signed,

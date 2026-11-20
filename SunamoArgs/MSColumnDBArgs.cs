@@ -1,8 +1,8 @@
 namespace SunamoArgs;
 
-public class MSSloupecDBArgs
+public class MSColumnDBArgs
 {
-    public string nazev = null!;
+    public string name = null!;
     public bool canBeNull;
     public bool identityIncrementBy1;
     public bool mustBeUnique;
